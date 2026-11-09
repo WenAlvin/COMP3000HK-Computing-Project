@@ -1,6 +1,6 @@
 # COMP3000HK-Computing-Project
-Project Title
+#### Project Title
 Detecting Malicious npm Packages Using Static Code Analysis and Machine Learning: A Lightweight Approach to Software Supply Chain Security
-Project Vision
+#### Project Vision
 A typical JavaScript application depends on hundreds of third-party packages, most of which the developer never reads. Attackers increasingly exploit this implicit trust. They publish malicious packages, hijack maintainer accounts and poison legitimate releases, so that a single compromised dependency can spread to thousands of downstream systems. Recent incidents show the scale of the threat. In 2026 the TeamPCP campaign compromised dozens of npm packages starting from one leaked access token, and poisoned releases of the widely used Axios library delivered a remote-access trojan through a fraudulent dependency.
 This project aims to give developers an accessible, explainable and lightweight way to check packages before they are installed. It will combine static analysis of package metadata and source code with supervised machine learning to produce a risk score and human-readable reasons for each package. The tool never executes untrusted code, so it is safe and cheap to run on a developer's machine or in a continuous integration pipeline. Beyond the software itself, the project aims to provide empirical evidence on which static indicators best separate malicious packages from benign ones, and to examine critically how far lightweight static detection can go against increasingly evasive adversaries.
